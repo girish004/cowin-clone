@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+         version="2.5" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  <servlet-name>Register</servlet-name>
+  <servlet-class>com.girish.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Register</servlet-name>
+  <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.girish.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/log</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>vaccinate</servlet-name>
+    <servlet-class>com.girish.Vaccine</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>vaccinate</servlet-name>
+    <url-pattern>/vac</url-pattern>
+    </servlet-mapping>
+    <servlet>
+      <servlet-name>updation</servlet-name>
+      <servlet-class>com.girish.Update</servlet-class>
+      </servlet>
+      <servlet-mapping>
+      <servlet-name>updation</servlet-name>
+      <url-pattern>/update</url-pattern>
+      </servlet-mapping>
+</web-app>
