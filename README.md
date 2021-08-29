@@ -7,11 +7,13 @@ Sample cowin clone site using JAVA servlet and JSP
 #### Tried making this to get used to webdevelopment, Servlets and JSP
 
 # Requirements
-* ''' JAVA
+```
+* JAVA
 * JDBC-Driver
 * MySQL
 * Knowledge in servlets and JSP
-* Tomcat server '''
+* Tomcat server
+```
 
 *Improvements are always welcome. Git pull, push and have fun*
 
