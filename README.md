@@ -6,6 +6,6 @@ Sample cowin clone site using JAVA servlet and JSP
 #### This website is made of JAVA-servlets and JSP, MySQL is used for storage purpose. 
 #### Tried making this to get used to webdevelopment, Servlets and JSP
 
-** Improvements are always welcome. Git pull, push and have fun **
+*Improvements are always welcome. Git pull, push and have fun*
 
 
